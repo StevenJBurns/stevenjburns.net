@@ -1,0 +1,44 @@
+*{margin: 0; padding: 0}
+
+html {color: #FFFFFF; background: #000000}
+body {font-family: Calibri, Verdana, Tahoma, "Segoe UI"; background-repeat: no-repeat;
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8cmFkaWFsR3JhZGllbnQgaWQ9ImcyMDMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjeD0iNTAlIiBjeT0iMCUiIHI9IjUwJSI+CjxzdG9wIHN0b3AtY29sb3I9IiNGRkZGRkYiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMwMDAwMDAiIG9mZnNldD0iMSIvPgo8L3JhZGlhbEdyYWRpZW50Pgo8cmVjdCB4PSItNTAiIHk9Ii01MCIgd2lkdGg9IjEwMSIgaGVpZ2h0PSIxMDEiIGZpbGw9InVybCgjZzIwMykiIC8+Cjwvc3ZnPg==);
+/*  background: -webkit-radial-gradient(center 0px, circle closest-corner, #FFFFFF, #000000 50%); */
+      background: -ms-radial-gradient(center 0px, circle closest-corner, #333333, #000000 50%);
+/*      background: -o-radial-gradient(center 0px, circle closest-corner, #FFFFFF, #000000 50%) */
+}
+
+hr {border-color: #303030; margin: 16px auto; max-width: 960px}
+
+div {max-width: 960px}
+div.layout {margin: 16px; text-align: center;}
+div.table {display: table; margin: auto; border-spacing: 2px}
+div.cell {display: table-cell; vertical-align: top}
+
+h1,h2,h3,h4,h5,h6 {margin: 2px; color: #BBBBBB; cursor: default}
+
+h1 {line-height: 96px}
+h2 {line-height: 96px}
+h4 {padding: 2px; background: #303030; text-align: center;
+          background-image: -webkit-linear-gradient(#BBBBBB 25%, #333333);
+          background-image: -moz-linear-gradient(#BBBBBB 25%, #333333);
+          background-image: -ms-linear-gradient(#BBBBBB 25%, #333333);
+          background-image: -o-linear-gradient(#BBBBBB 25%, #333333);
+}
+
+p {text-align: justify; padding: 4px; cursor: default}
+
+img {display: block; border-style: none}
+
+ul {list-style: none; margin: 0; padding: 0}
+
+li {width: 96px; padding: 2px; color: #000000; background: #C7C7C7;  text-align: center; cursor: default}
+li.link {display: inline-block;  margin: 0px; border-radius: 2px; color: #C0C0C0; background-color: #7C7C7C;
+          background-image: -webkit-linear-gradient(#555555, #999999 25%, #333333);
+          background-image:-moz-linear-gradient(#555555, #999999 25%, #333333);
+          background-image: linear-gradient(to bottom, #555555, #999999 25%, #333333);
+          background-image:-o-linear-gradient(#555555, #999999 25%, #333333);
+}
+
+a {color: #CCCCCC; font-weight: bold; text-decoration: none; display: block}
+a:hover {color: #FFFFFF}

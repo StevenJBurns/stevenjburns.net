@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0}
+
+html {height: 100%; color: #DDDDDD; background: #000000}
+body {margin: auto; max-width: 960px; min-height: 480px; font-family: Calibri, Verdana, Tahoma; border-radius: 16px}
+
+header {height: 72px; background: transparent;
+        background: -webkit-linear-gradient(270deg, #111111, #333333);
+        background: linear-gradient(0deg, #333333, #111111)
+}
+
+div {max-width: 960px; min-height: 72px}
+div.layout {margin: auto; text-align: center; background: #333333}
+div.table {display: table; margin: auto; border-radius: 8px; border-spacing: 8px}
+div.cell {display: table-cell; vertical-align: top}
+
+h1, h2, h3, h4, h5, h6 {}
+
+hr {margin: 24px auto; max-width: 960px; border-color: #777777}
+
+span{width: 100%; color: #DDDDDD; text-align: center}
+
+ul {list-style: none}
+
+a {color: #FFFFFF; text-decoration: none}
+
+footer {height: 72px; background: transparent;
+        background: -webkit-linear-gradient(90deg, #000000, #333333 );
+        background: linear-gradient(180deg, #333333 , #000000)
+}

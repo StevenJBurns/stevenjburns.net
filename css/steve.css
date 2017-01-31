@@ -1,0 +1,9 @@
+html {}
+body {padding: 48px; color: #FFFF00; background: #000000; font-family: Calibri; text-align: center;}
+
+hr {border-color: #FFFF00; margin-top: 8px;}
+
+li.link {width: 144px; margin: 2px; padding: 2px; color: #000000; background: #FFFF00; border-radius: 4px; display: inline-block;}
+
+img {border-style: none;}
+img.browser-icon {margin: 4px; height: 64px; width:  64px; border-style: none;}
