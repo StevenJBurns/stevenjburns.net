@@ -28,6 +28,12 @@ main {
   background: url("/content/images/backgrounds/cracked-asphalt.jpg");
 }
 
+.about {
+  color: #F0F0F0;
+  background: url("/content/images/backgrounds/brushed.jpg");
+  font-size: 2.0em
+}
+
 h1 { font-size: 2.8em }
 h2 { font-size: 2.5em }
 h3 { font-size: 2.0em }
