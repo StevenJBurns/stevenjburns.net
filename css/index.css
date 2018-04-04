@@ -15,10 +15,17 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url("../images/titanium-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.index {
+  background: url("/content/images/backgrounds/titanium-2.jpg");
+}
+
+.four-o-four {
+  background: url("/content/images/backgrounds/cracked-asphalt.jpg");
 }
 
 h1 { font-size: 2.8em }
