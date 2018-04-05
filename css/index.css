@@ -12,6 +12,7 @@ body {
 
 main {
   height: 100vh;
+  padding: 2vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,12 +32,14 @@ main {
 .about {
   color: #F0F0F0;
   background: url("/content/images/backgrounds/brushed.jpg");
-  font-size: 2vw
+  font-size: 2vw;
+  font-weight: bold
 }
 
-main p {
+.about p {
   color: lightblue;
-  font-size: 2vw
+  font-size: 2vmax;
+  text-align: left
 }
 
 h1 { font-size: 2.8em }
@@ -79,6 +82,6 @@ img {
 }
 
 hr {
-  width: 288px;
+  width: 80vw;
   margin: 12px auto
 }
