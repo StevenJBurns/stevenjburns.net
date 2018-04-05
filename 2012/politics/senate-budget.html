@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <main>
+      <div class="layout" style="padding: 96px 0">
+        <h1 style="display: none">The Last United States Senate Budget</h1>
+        <div>
+          <q><i>There's no need to have a Democratic budget in my opinion... It would be foolish for us to do a budget at this stage.</i></q>
+          <br />    
+          <span>-- Senator Harry Reid (D-NV), U.S. Senate Majority Leader - 19 May 2011</span>
+        </div>
+        <div style="margin: auto">
+          <h3>The last budget resolution adopted by the United States Senate: <span class="warning">@lastBudget.ToString("dd MMM yyyy")</span></h3>
+          <h3><span class="warning">@diffBudget.Days</span> days without a budget</h3>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+    // original ASP.NET razor code
+    // @{
+    // Layout="../_layout.page.cshtml";
+    // PageData["title"] += "The Last United States Senate Budget";
+
+    // DateTime lastBudget = new DateTime(2009, 04, 29, 12, 00, 00);
+    // TimeSpan diffBudget = DateTime.Today - lastBudget; 
+    // }    
+  </script>
+</html>
