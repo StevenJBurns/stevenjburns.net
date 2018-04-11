@@ -3,6 +3,7 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
 .DS_Store
 
 # Editor directories and files
@@ -11,10 +12,4 @@ yarn-error.log*
 *.suo
 *.ntvs*
 *.njsproj
-
 .vscode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
