@@ -5,12 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StevenJBurns &bull; SVG Test</title>
+    <style>
+      * { margin: 0; padding: 0 }
+      body {
+        min-height: 100vh; 
+        background: url("/content/images/backgrounds/titanium-2.jpg")
+      }
+      svg { margin: 0 auto }
+    </style>
   </head>
   <body>
     <main>
-      <svg height="256" width="256">
-        <text x="48" y="32" font-family="Arial Black" font-size="32">SVG</text>
-        <circle></circle>
+      <svg viewBox="0 0 320 38" width="320">
+        <g style="overflow:hidden; text-anchor: left; font-size: 32; font-weight: bold; font-family: Verdana, Helvetica, Arial, sans-serif">
+          <defs>
+            <mask id="textMask">
+              <text style="fill:white;" x="4" y="32">STEVEN J BURNS</text>
+            </mask>
+            <filter id="innerShadow" x="-20%" y="-20%" width="175%" height="175%">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+              <feOffset in="blur" dx="2.5" dy="2.5"/>
+            </filter>
+          </defs>
+          <g mask="url(#textMask)">
+            <rect x="0" y="0" width="320" height="48" style="fill:#4F4F4F"/>
+            <text style="fill: #DFDFDF; filter: url(#innerShadow)" x="4" y="32">STEVEN J BURNS</text>
+          </g>
+        </g>
+        <!-- <text x="0" y="24" font-family="Arial Black" font-size="32">STEVEN J BURNS</text> -->
       </svg>
     </main>
   </body>
