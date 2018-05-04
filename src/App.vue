@@ -6,6 +6,8 @@
 </template>
 
 <script>
+  // import PageHome from './components/pages/PageHome';
+
   export default {
     name: 'App'
   }
