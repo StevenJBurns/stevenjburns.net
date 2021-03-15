@@ -48,7 +48,8 @@ h3 { font-size: 2.0em }
 
 h1, h2, h3, hr {
   margin: 0 2vw;
-  color: lightblue
+  color: lightblue;
+  color: #F0F0F0;
 }
 
 ul {
