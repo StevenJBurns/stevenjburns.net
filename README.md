@@ -1,4 +1,4 @@
-# stevenjburns-net
+# stevenjburns.net
 
 > Personal and Portfolio website
 
